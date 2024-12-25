@@ -5,12 +5,10 @@ One of the most non-distracting offline dictionaries
 - [Introduction](#Introduction)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Configuration File](#Configuration File)
-
-
+- [Configuration](#Configuration)
 
 *For the impatient: if you just run the binary and nothing happens or you'll get a notification that there is already an instance of the program running, please take a look on Installation & Usage. 
-You can toggle the main window by pressing WIN+CTRL+J. If the main window pops up on your screen, you can press and hold ALT key. This displays an overview of options and buttons you can use in this program. E.g. ALT+Q will exit the program. See more under [Usage](#Usage*)
+You can toggle the main window by pressing WIN+CTRL+J. If the main window pops up on your screen, you can press and hold ALT key. This displays an overview of options and buttons you can use in this program. E.g. ALT+Q will exit the program. See more under [Usage](#Usage)*
 
 ![Running](https://raw.githubusercontent.com/maekdev/maekdev/main/media/translate2ME/capture1.gif)
 
@@ -54,7 +52,7 @@ If the main window is visible and you hold the ALT key, you will see an overview
 - ALT+L will change search type (toggle in between RegEx-, Literal- and Wildcard-Search)
 - ALT+1..ALT+9 will switch to another dictionary if you have enabled in the configuration file
 
-# Configuration File
+# Configuration
 
 By default the program will read configuration from the file config.cfg which is in the same folder as the executable. You can edit this file with a regular texteditor and major configuration, like colors fontsizes and the hotkey to toggle the window can be configured here.
 To add a dictionary to the program you can use the call LANG_CFG() in this file. It takes two arguments - a descriptor/name which should be displayed and another script file, which contains the language specific data.
