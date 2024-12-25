@@ -1,0 +1,6 @@
+MOST IMPORTANT GIT STEPS
+========================
+git remote set-url origin git@github.com:maekdev/translate2ME.git
+git add .
+git commit -a -m <text>
+git push origin main
