@@ -1,12 +1,22 @@
 # translate2ME
-Offline dictionary for easy integration/accessibility
+One of the most non-distracting offline dictionaries 
 
-For the impatient: if you just run the binary and nothing happens or you'll get a notification that there is already an instance of the program running, please take a look on Installation & Usage. 
-You can toggle the main window by pressing WIN+CTRL+J. If the main window pops up on your screen, you can press and hold ALT key. This displays an overview of options and buttons you can use in this program. E.g. ALT+Q will exit the program.
+## Table of Contents
+- [Introduction](#Introduction)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Configuration File](#Configuration File)
+
+
+
+*For the impatient: if you just run the binary and nothing happens or you'll get a notification that there is already an instance of the program running, please take a look on Installation & Usage. 
+You can toggle the main window by pressing WIN+CTRL+J. If the main window pops up on your screen, you can press and hold ALT key. This displays an overview of options and buttons you can use in this program. E.g. ALT+Q will exit the program. See more under [Usage](#Usage*)
+
+![Running](https://raw.githubusercontent.com/maekdev/maekdev/main/media/translate2ME/capture1.gif)
 
 # Introduction
 
-When I wrote the first version of this program I was experimenting with minimalism. Not in a sense of KISS (keep it simple stupid) or reducing the program to a minimum size, but more in 1920s Bauhaus attitude: that the program fulfills the function and purpose in the most optimized way and does not carry any overhead nor is bound to the restrictions of the OS's user interface. Functionality comes first and is the driver for everything else.
+When I wrote the first version of this program I was experimenting with minimalism. Not in a sense of KISS (keep it simple stupid) or reducing the program to a minimum size, but more in 1920s Bauhaus attitude: that the program fulfills the function and purpose in the most optimized way and does not carry any overhead nor is bound to the restrictions of the OS's user interface. **Functionality comes first and is the driver for everything else.**
 
 The intention was to build something, that improves productivity. More concrete, a dictionary and the function is to provide the information when needed, without distracting too much from the main activity (like writing an email/reading a technical paper or whatever).
 I found it very annoying to open a browser, click the search bar of some online dictionary - and of course wait and keep the patience until all this loads up. Instead the application should just be available to enter data or present information that I was looking for as quick as possible and that meant
@@ -48,4 +58,6 @@ If the main window is visible and you hold the ALT key, you will see an overview
 
 By default the program will read configuration from the file config.cfg which is in the same folder as the executable. You can edit this file with a regular texteditor and major configuration, like colors fontsizes and the hotkey to toggle the window can be configured here.
 To add a dictionary to the program you can use the call LANG_CFG() in this file. It takes two arguments - a descriptor/name which should be displayed and another script file, which contains the language specific data.
-For examples on howto use this, take a look on the commented config file examples.
+For examples on howto use this, take a look on the commented config file examples. If you've setup everything correctly, then it should look like this:
+
+![Example1](https://raw.githubusercontent.com/maekdev/maekdev/main/media/translate2ME/capture2.gif)
