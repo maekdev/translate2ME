@@ -4,6 +4,7 @@ media/
 # dictionary files
 bin/dat/*.txt
 bin/dat/*.zip
+bin/dat/leo_*.bmp
 
 # developer notes
 ./README_markus
