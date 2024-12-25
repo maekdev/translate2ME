@@ -1,7 +1,10 @@
 # media subdirectory
 media/
 
+# dictionary files
+bin/dat/*.txt
+bin/dat/*.zip
+
 # developer notes
 ./README_markus
 
-# ignore dictionary files
