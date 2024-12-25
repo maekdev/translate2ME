@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Anleitung</title>
+<style type="text/css">
+    li { list-style: none;  margin: 0; }
+    p { margin: 0; }
+
+    span.l { color: red; font-weight: bold; }
+
+    a.mapnode:link {text-decoration: none; color: black; }
+    a.mapnode:visited {text-decoration: none; color: black; }
+    a.mapnode:active {text-decoration: none; color: black; }
+    a.mapnode:hover {text-decoration: none; color: black; background: #eeeee0; }
+
+</style>
+<!-- ^ Position is not set to relative / absolute here because of Mozilla -->
+</head>
+<body>
+<p><a href="../home/donovan/AltesZeug/Projekt_Wortklauber_archiviert/extract/ProjektWortklauber.mm.html" target="_blank"><span class=l>~</span>&nbsp;<span style="font-size: 133%;font-family: SansSerif, sans-serif; font-weight: bold; ">Anleitung</span>
+</a>
+<ul><li>Einstellungen
+<ul><li><p>Generell wird unterschieden zwischen permanenten Einstellungen - wie Darstellungsoptionen und Spracheinstellungen (Datei, Grafik, Substitution), die w&auml;hrend der Laufzeit nicht ver&auml;ndert werden und ver&auml;nderlichen Einstellungen - wie Suchoptionenen - die w&auml;hrend der Laufzeit ge&auml;ndert werden k&ouml;nnen
+<p>Permanente Einstellungen
+<ul><li><p>Die Konfigurationsdatei (config.cfg) kann mit einem beliebigen Texteditor ver&auml;ndert werden. Alle Konfigurationsoptionen sind durch Kommentare erl&auml;utert.
+</li>
+</ul><p>Ver&auml;nderliche Einstellungen
+<ul><li><p>Ver&auml;nderliche Einstellungen k&ouml;nnen w&auml;hrend einer Sucheeingabe durch Tastenkombinationen ver&auml;ndert werden durch die entsprechende Tastenkombination ALT+...
+</li>
+</ul></li>
+</ul>
+</li>
+<li>Bedienung
+<ul><li>Hauptfenster
+<ul><li><p>Das Hauptfenster wird nur dann sichtbar, wenn die in der Konfigurationsdatei definierte Tastenkombination erkannt wird.
+<p>Sobald das Hauptfenster aktiv ist, kann ein Suchstring eingegeben werden und mit Return eine Suche durchgef&uuml;hrt werden.
+<p>Wird nach einer Suche ein zweites Mal Return eingegeben, wird der in der Sprachkonfiguration definierte Suchstring im Browser ge&ouml;ffnet.
+<p>Werden keine oder sehr wenige Fundstellen gefunden, dann wird eine Ann&auml;herungssuche durchgef&uuml;hrt, sofern diese Option aktiviert ist.
+<p>Das Hauptfenster wird geschlossen, wenn
+<ul><li>Die Tastenkombination erneut bet&auml;tigt wird.
+
+</li>
+<li>Ein anderes Fenster ausgew&auml;hlt wird
+
+</li>
+<li>ESC gedr&uuml;ckt wird bei einer leeren Suchanfrage (andernfalls l&ouml;scht ESC den Suchstring)
+
+</li>
+
+</ul></li>
+</ul>
+</li>
+<li>Hauptkonfigurationsdatei (config.cfg)
+<ul><li>siehe Beispiel
+
+</li>
+
+</ul>
+</li>
+<li>Sprachkonfigurationsdatei (lang.cfg)
+<ul><li>LOADDICTIONARY(&lt;file&gt;)
+<ul><li>Dateiname der W&ouml;rterbuchdatenbank
+
+</li>
+
+</ul>
+</li>
+<li>LOADBITMAP(&lt;file&gt;
+<ul><li>Dateiname der Bitmap zur Darstellung (rechts oben)
+
+</li>
+
+</ul>
+</li>
+<li>SEARCHURL(&lt;url&gt;)
+<ul><li>Such-URL f&uuml;r Online-Suche (in &lt;url&gt; wird "&lt;SEARCH&gt;" mit dem zu suchenden Begriff ausgewechselt
+
+</li>
+
+</ul>
+</li>
+<li>DELETECOMMENT()
+<ul><li>L&ouml;scht alle Zeilen die mit '#' beginnen
+
+</li>
+
+</ul>
+</li>
+<li>DELETESTRING(&lt;str&gt;)
+<ul><li>L&ouml;scht einzelne Strings &lt;str&gt; zB {noun}
+
+</li>
+
+</ul>
+</li>
+<li>REPLACECHAR(&lt;in&gt;,&lt;repl&gt;)
+<ul><li>Ersetzt einzelne Zeichen; kann zB verwendet werden um aus Tabulator \t Leerzeichen zu generieren
+
+</li>
+
+</ul>
+</li>
+<li>SUBSTITUTE(&lt;inchar&gt;,&lt;outstr&gt;)
+<ul><li><p>Ersetzt einzelne Zeichen inchar mit einem String outstr; kann zB verwendet werden, um Accents etc automatisiert zu suchen
+</li>
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul></body>
+</html>

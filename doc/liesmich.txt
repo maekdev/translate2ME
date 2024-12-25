@@ -1,0 +1,20 @@
+
+  Kurzbeschreibung
+
+Dieses Programm ermöglicht die Suche von Wörtern in Offline Wörterbüchern.
+Das User Interface wurde so gestaltet, dass das Programm ohne Maus verwendet werden kann und nur bei Bedarf - auf unkomplizierte Art und Weise - in Erscheinung tritt.
+Als Suchoptionen stehen einfache Ausdrücke mit Wildcards und reguläre Ausdrücke zur Auswahl. Suchanfragen können auch fehlerbehaftet oder "unscharf" sein.
+Es wurden keine Konfigurationsmenüs implementiert: Optionen die für die Suche benötigt werden können über Tastenkombinationen aktiviert werden; grundlegende Einstellungen sind über Konfigurationsdateien möglich.
+
+  
+  Erläuterung
+
+Wenn man einen Text oder eine Email in einer fremden Sprache schreibt, warum sollte man dann seine Hände von der Tastatur nehmen um mit einem anderen Programm ein Wort nachzuschlagen?
+Warum sollte man ein Wörterbuchprogramm über ein Menü oder ein Symbol starten?
+Warum sollte ein Wörterbuchprogramm ein eigenes Fenster belegen, wenn es nur sporadisch benötigt wird?
+Warum sollte man sich an die vorgefertigten Muster, Fenster und Dialogelemente eines Win32-Systems halten?
+
+Dieses Programm enstand als "Studie" eines anwendungsorientierten Werkzeuges: Bewusst werden keine Standardelemente (Fenster, Buttons, Listen) verwendet und neue Programmiertechnologien eingesetzt zB Automatentheorie und Strukturketten für die Suchalgorithmen und die Konfiguration, wie auch die libtre für reguläre Ausdrücke und die unscharfe Suche.
+
+Das Programm startet im Hintergrund und wird nur durch eine konfigurierbare Tastenkombination eingeblendet.
+Mehrere Wörterbücher können verwendet werden und individuell auf die Sprache und den Benutzer angepasst werden.
